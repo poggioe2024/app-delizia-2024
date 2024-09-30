@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0207B449-4B80-4F45-9E69-A6508C37869F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cocina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cocina.Designer.cs">
+      <DependentUpon>Cocina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CocinaMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CocinaMenu.Designer.cs">
+      <DependentUpon>CocinaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CocinaPedidos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CocinaPedidos.Designer.cs">
+      <DependentUpon>CocinaPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CocinaPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CocinaPedido.Designer.cs">
+      <DependentUpon>CocinaPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionProducto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecepcionProducto.Designer.cs">
+      <DependentUpon>RecepcionProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion.Designer.cs">
+      <DependentUpon>Recepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionConfirmacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecepcionConfirmacion.Designer.cs">
+      <DependentUpon>RecepcionConfirmacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionDatos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecepcionDatos.Designer.cs">
+      <DependentUpon>RecepcionDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecepcionMenu.Designer.cs">
+      <DependentUpon>RecepcionMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionSeleccion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecepcionSeleccion.Designer.cs">
+      <DependentUpon>RecepcionSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reparto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reparto.Designer.cs">
+      <DependentUpon>Reparto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepartoMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepartoMenu.Designer.cs">
+      <DependentUpon>RepartoMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepartoPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepartoPedido.Designer.cs">
+      <DependentUpon>RepartoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepartoSeleccion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepartoSeleccion.Designer.cs">
+      <DependentUpon>RepartoSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepartoVer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepartoVer.Designer.cs">
+      <DependentUpon>RepartoVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguimiento.Designer.cs">
+      <DependentUpon>Seguimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeguimientoMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeguimientoMenu.Designer.cs">
+      <DependentUpon>SeguimientoMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeguimientoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeguimientoPanel.Designer.cs">
+      <DependentUpon>SeguimientoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeguimientoPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SeguimientoPedido.Designer.cs">
+      <DependentUpon>SeguimientoPedido.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CocinaMenu.resx">
+      <DependentUpon>CocinaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CocinaPedidos.resx">
+      <DependentUpon>CocinaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CocinaPedido.resx">
+      <DependentUpon>CocinaPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionProducto.resx">
+      <DependentUpon>RecepcionProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Recepcion.resx">
+      <DependentUpon>Recepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionConfirmacion.resx">
+      <DependentUpon>RecepcionConfirmacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionDatos.resx">
+      <DependentUpon>RecepcionDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionMenu.resx">
+      <DependentUpon>RecepcionMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcionSeleccion.resx">
+      <DependentUpon>RecepcionSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepartoMenu.resx">
+      <DependentUpon>RepartoMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepartoPedido.resx">
+      <DependentUpon>RepartoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepartoSeleccion.resx">
+      <DependentUpon>RepartoSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepartoVer.resx">
+      <DependentUpon>RepartoVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguimiento.resx">
+      <DependentUpon>Seguimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeguimientoMenu.resx">
+      <DependentUpon>SeguimientoMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeguimientoPanel.resx">
+      <DependentUpon>SeguimientoPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeguimientoPedido.resx">
+      <DependentUpon>SeguimientoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

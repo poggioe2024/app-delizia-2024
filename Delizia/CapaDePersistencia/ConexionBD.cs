@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace CapaDePersistencia
     {
         private MySqlConnection conexion;
         private string server = "localhost";
-        private string database = "prueba";
+        private string database = "delizia_bd";
         private string user = "root";
         private string password = "";
         private string cadena_conexion;
@@ -41,10 +42,18 @@ namespace CapaDePersistencia
                 mySqlCommand.Connection = getConexion();
                 mySqlDataReader = mySqlCommand.ExecuteReader();
                 while (mySqlDataReader.Read()) {
-                    result = mySqlDataReader.GetString(columnas);
+                    result = mySqlDataReader[columnas].ToString();
                 }
             }
             return result;
+        }
+        public void insercion(string cadena) {
+            if (conexion != null)
+            {
+                MySqlCommand mySqlCommand = new MySqlCommand(cadena);
+                mySqlCommand.Connection = getConexion();
+                int filas_afectadas = mySqlCommand.ExecuteNonQuery();
+            }
         }
 
         public void cerrar_conexion()

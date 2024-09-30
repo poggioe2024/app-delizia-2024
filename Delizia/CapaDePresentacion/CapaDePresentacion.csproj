@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recepcion.Designer.cs">
+      <DependentUpon>Recepcion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Component1.resx">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcion.resx">
+      <DependentUpon>Recepcion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

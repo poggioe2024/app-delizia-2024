@@ -1,0 +1,11 @@
+D:\proyecto2024\Delizia\CapaLogica\bin\Debug\net8.0\CapaLogica.deps.json
+D:\proyecto2024\Delizia\CapaLogica\bin\Debug\net8.0\CapaLogica.dll
+D:\proyecto2024\Delizia\CapaLogica\bin\Debug\net8.0\CapaLogica.pdb
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.AssemblyInfoInputs.cache
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.AssemblyInfo.cs
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.csproj.CoreCompileInputs.cache
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.dll
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\refint\CapaLogica.dll
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\CapaLogica.pdb
+D:\proyecto2024\Delizia\CapaLogica\obj\Debug\net8.0\ref\CapaLogica.dll

@@ -41,3 +41,5 @@ D:\app-delizia-2024\Delizia\CapaDePresentacion\bin\Debug\K4os.Hash.xxHash.xml
 D:\app-delizia-2024\Delizia\CapaDePresentacion\bin\Debug\System.Numerics.Vectors.xml
 D:\app-delizia-2024\Delizia\CapaDePresentacion\obj\Debug\CapaDePr.C47967BF.Up2Date
 D:\app-delizia-2024\Delizia\CapaDePresentacion\bin\Debug\CapaLogica.dll.config
+D:\app-delizia-2024\Delizia\CapaDePresentacion\obj\Debug\CapaDePresentacion.VentanaRecepcion.resources
+D:\app-delizia-2024\Delizia\CapaDePresentacion\obj\Debug\CapaDePresentacion.Component1.resources

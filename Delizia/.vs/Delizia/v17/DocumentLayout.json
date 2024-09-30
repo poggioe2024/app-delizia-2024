@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\app-delizia-2024\\Delizia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC75B7D4-F9C3-47E7-929C-74CBF456F8BC}|CapaDePresentacion\\CapaDePresentacion.csproj|d:\\app-delizia-2024\\delizia\\capadepresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC75B7D4-F9C3-47E7-929C-74CBF456F8BC}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0207B449-4B80-4F45-9E69-A6508C37869F}|CapaPresentacion\\CapaPresentacion.csproj|d:\\app-delizia-2024\\delizia\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0207B449-4B80-4F45-9E69-A6508C37869F}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC75B7D4-F9C3-47E7-929C-74CBF456F8BC}|CapaDePresentacion\\CapaDePresentacion.csproj|D:\\app-delizia-2024\\Delizia\\capadepresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC75B7D4-F9C3-47E7-929C-74CBF456F8BC}|CapaDePresentacion\\CapaDePresentacion.csproj|solutionrelative:capadepresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|D:\\app-delizia-2024\\Delizia\\capalogica\\logicalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\logicalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|d:\\app-delizia-2024\\delizia\\capalogica\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|d:\\app-delizia-2024\\delizia\\capalogica\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF326D3-25AB-4E1E-8188-9918B4D582E2}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AE2CCD-8A73-4FC6-BAEC-3EA88CA19F6A}|CapaDePersistencia\\CapaDePersistencia.csproj|D:\\app-delizia-2024\\Delizia\\capadepersistencia\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AE2CCD-8A73-4FC6-BAEC-3EA88CA19F6A}|CapaDePersistencia\\CapaDePersistencia.csproj|solutionrelative:capadepersistencia\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0207B449-4B80-4F45-9E69-A6508C37869F}|CapaPresentacion\\CapaPresentacion.csproj|D:\\app-delizia-2024\\Delizia\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0207B449-4B80-4F45-9E69-A6508C37869F}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ingrediente.cs",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\Ingrediente.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\Ingrediente.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\Ingrediente.cs",
-              "RelativeToolTip": "CapaLogica\\Ingrediente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaPresentacion\\Program.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Program.cs",
+              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaPresentacion\\Program.cs",
+              "RelativeToolTip": "CapaPresentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:01:46.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\Pedido.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\Pedido.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\Pedido.cs",
-              "RelativeToolTip": "CapaLogica\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:01:33.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogicaLogin.cs",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\LogicaLogin.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\LogicaLogin.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaLogica\\LogicaLogin.cs",
-              "RelativeToolTip": "CapaLogica\\LogicaLogin.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:43:46.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaDePersistencia\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "CapaDePersistencia\\ConexionBD.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaDePersistencia\\ConexionBD.cs",
-              "RelativeToolTip": "CapaDePersistencia\\ConexionBD.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T07:04:45.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T04:27:55.222Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.cs",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaDePresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "CapaDePresentacion\\Login.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaDePresentacion\\Login.cs",
-              "RelativeToolTip": "CapaDePresentacion\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaPresentacion\\Login.cs",
+              "RelativeToolTip": "CapaPresentacion\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:33:07.41Z",
+              "WhenOpened": "2024-09-30T22:15:27.676Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\app-delizia-2024\\Delizia\\CapaDePresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "CapaDePresentacion\\Login.cs",
-              "ToolTip": "D:\\app-delizia-2024\\Delizia\\CapaDePresentacion\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDePresentacion\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:33:01.287Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

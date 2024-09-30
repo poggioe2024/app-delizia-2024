@@ -40,5 +40,19 @@ namespace CapaLogica
             else
                 {  return false; }
         }
+
+        public string check_permisos(string usuario)
+        {
+            ConexionBD conexion = new ConexionBD();
+            conexion.getConexion();
+            string consulta = "select * from funcionarios where cedula = " + usuario + ";";
+            string rol = conexion.consulta(consulta, "rol");
+            conexion.cerrar_conexion();
+            return rol;
+        }
+
+        public void abrir_ventana()
+        {
+        }
     }
 }

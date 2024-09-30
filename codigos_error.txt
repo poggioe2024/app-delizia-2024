@@ -1,3 +1,7 @@
 PRESENTES EXCLUSIVAMENTE EN EL LOGIN
 1001 - Usuario o contraseña incorrectos.
 1002 - No se insertó ningún dato del usuario.
+1003 - Permisos mal declarados o nulos.
+
+45362789
+password123

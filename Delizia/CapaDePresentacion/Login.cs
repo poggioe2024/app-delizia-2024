@@ -13,6 +13,7 @@ namespace CapaDePresentacion
 {
     public partial class Login : Form
     {
+        private LogicaLogin logica = new LogicaLogin();
         public Login()
         {
             InitializeComponent();
@@ -24,15 +25,23 @@ namespace CapaDePresentacion
 
         private void btn_enviar_Click(object sender, EventArgs e)
         {
-            LogicaLogin logica = new LogicaLogin();
             string documento = txt_documento.Text;
             string contrasena = txt_contrasena.Text;
             try
             {
                 bool check = logica.check_usuario(documento, contrasena);
-                if (check == true)
+                if (check)
                 {
-                    Dispose();
+                    string rol = logica.check_permisos(documento);
+                    if (rol == "2")
+                    {
+                        Program.mostrar_recepcion(this);
+                    }
+                    else {
+                        MessageBox.Show("Error 1003. Permisos mal declarados o nulos.", "E1003");
+                    }
+                    txt_documento.Text = "";
+                    txt_contrasena.Text = "";
                 }
                 else
                 {
@@ -40,7 +49,7 @@ namespace CapaDePresentacion
                 }
             }
             catch (Exception ex) {
-                MessageBox.Show("Error 1002. No se insertó ningún dato del usuario.", "E1002");
+                MessageBox.Show("Error 0000. Excepcion no controlada.", "0000");
             }
         }
 
